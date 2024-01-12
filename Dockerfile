@@ -1,7 +1,7 @@
 FROM nginx:1.25.3-alpine
 
 
-COPY ./sites-enabled/* /etc/nginx/sites-enabled/
+COPY ./sites-available/* /etc/nginx/sites-available/
 
 COPY ./nginx.conf /etc/nginx/
 
